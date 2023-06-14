@@ -4,14 +4,14 @@ import service2 from '../../Assets/images/service2.webp'
 
 export default function Services() {
     return (
-      <div style={{ backgroundColor: 'rgb(48, 44, 41)' }} className=''>
+      <div style={{ backgroundColor: 'rgb(48, 44, 41)' }} className='pb-10'>
         <div className="text-center p-9" style={{paddingBottom:'15%', paddingTop: '15%'}}>
         <h2 className="text-4xl font-bold mb-4 text-white">Service Offerings</h2>
         <p className="text-sm mb-4 text-white">
           With backgrounds in strategy, project management and much more, Dira Investments Limited is at the frontline, and leading your business down the path of success. Take a look at the services below, and gain a level of insight like never before.
         </p>
       </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
           <div className="relative">
             <img src={service1} alt="Brainstorming" className="w-full h-auto rounded shadow" style={{ opacity: 0.8 }}/>
             <div className="absolute pb-10 left-0 right-0 bottom-0 flex items-center justify-center">
