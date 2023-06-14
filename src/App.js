@@ -1,4 +1,5 @@
 import Hero from "./components/Hero/Hero";
+import Invite from "./components/Invite/Invite";
 import JoinUs from "./components/JoinUs/JoinUs";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
@@ -13,6 +14,7 @@ function App() {
       <Services/>
       <JoinUs/>
       <Testimonials/>
+      <Invite />
     </>
   );
 }
