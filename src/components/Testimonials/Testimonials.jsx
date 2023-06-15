@@ -1,15 +1,15 @@
 export default function Testimonials() {
     const testimonials = [
       {
-        name: 'James riyal',
-        quote: 'Im impressed with the professionalism and dedication of the team at Dira Investments. They have helped me navigate the complexities of the African market and achieve significant growth for my business.',
+        name: 'Delighted Client',
+        quote: 'Dira Investments has been a game-changer for our company. Highly recommended!',
       },
       {
-        name: 'Issa Mohamed',
-        quote: 'Working with Dira Investments has been a game-changer for my startup. Their strategic insights and tailored solutions have positioned us for success in the African market.',
+        name: 'Happy Customer',
+        quote: 'We are impressed by the expertise and insights provided by Dira Investments. They truly understand our industry.',
       },
       {
-        name: 'Mohamed Osman',
+        name: 'Satisfied Client',
         quote: 'I highly recommend Dira Investments to anyone looking to expand their business in Africa. Their expertise and deep understanding of the local market have been instrumental in our growth and profitability.',
       },
     ];
@@ -27,7 +27,7 @@ export default function Testimonials() {
           <div className="mb-12 md:mb-0 bg-black m-2 " key={index} >
             <div className="mb-6 flex justify-center">
               <img
-                // src={`https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(${index + 2}).jpg`}
+                src='https://tse3.mm.bing.net/th?id=OIP.fWMgWK7C14QiOJjaY1ahBAHaHa&pid=Api&P=0&h=180'
                 alt={testimonial.name[0]}
                 className="w-32 rounded-full shadow-lg dark:shadow-white/30 text-white m-2"
                 // alt={`Avatar ${index + 1}`}
