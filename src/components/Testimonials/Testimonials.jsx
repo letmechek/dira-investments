@@ -1,7 +1,7 @@
 export default function Testimonials() {
     const testimonials = [
       {
-        name: 'James Gichuru',
+        name: 'James riyal',
         quote: 'Im impressed with the professionalism and dedication of the team at Dira Investments. They have helped me navigate the complexities of the African market and achieve significant growth for my business.',
       },
       {
@@ -15,22 +15,31 @@ export default function Testimonials() {
     ];
   
     return (
-      <div style={{ backgroundColor: 'rgb(48, 44, 41)' }} className='pb-10'>
+        <div style={{ backgroundColor: 'rgb(48, 44, 41)' }}>
         <div className="text-center p-9" style={{ paddingBottom: '7%', paddingTop: '15%' }}>
           <h2 className="text-4xl font-bold mb-4 text-white">Client Testimonials</h2>
           <p className="text-md mb-4 text-white">
             Straight From the Source
           </p>
         </div>
-        <div className="flex justify-center pr-15">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-black p-4 mx-2 rounded text-white">
-              <p>{testimonial.quote}</p>
-              <p className="text-white font-bold mt-4">{testimonial.name}</p>
+          <div className="grid gap-6 text-center md:grid-cols-3 lg:gap-12 pb-5" >
+        {testimonials.map((testimonial, index) => (
+          <div className="mb-12 md:mb-0 bg-black m-2 " key={index} >
+            <div className="mb-6 flex justify-center">
+              <img
+                // src={`https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(${index + 2}).jpg`}
+                alt={testimonial.name[0]}
+                className="w-32 rounded-full shadow-lg dark:shadow-white/30 text-white m-2"
+                // alt={`Avatar ${index + 1}`}
+              />
             </div>
-          ))}
-        </div>
+            <h5 className="mb-4 text-xl font-semibold text-white">{testimonial.name}</h5>
+            <p className="mb-4 text-white">{testimonial.quote}</p>
+          </div>
+        ))}
+      </div>
       </div>
     );
-  }
+  };
+
   
