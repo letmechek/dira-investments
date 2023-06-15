@@ -12,8 +12,11 @@ export default function Invite() {
               <p className="text-white mb-4">
                 227 Buteko Avenue, Town Centre, Ndola, Zambia
               </p>
-              <p className="text-white mb-4">dispatch@diratransport.com</p>
-              <p className="text-white">+245793022425</p>
+              <p className="text-white mb-4">Diralimited@gmail.com</p>
+              <p className="text-white">
+                <a href="tel:+26095100555">+26095100555</a>
+              </p>
+
             </div>
             <div className="w-full md:w-1/2">
               <img src={joinImage} alt="Join Us" className="w-full h-full" />
