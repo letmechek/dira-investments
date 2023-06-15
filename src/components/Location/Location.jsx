@@ -5,7 +5,13 @@ export default function Location() {
   const center = [-12.9723621, 28.6477007]; // Coordinates for 227 Buteko Avenue, Town Centre, Ndola, Zambia
 
   return (
-    <MapContainer center={center} zoom={16} style={{ height: "50vh", width: "100%" }}>
+    <MapContainer   center={center}
+    zoom={16}
+    style={{ height: "50vh", width: "100%" }}
+    className="leaflet-container"
+    attributionControl={false}
+  >
+  
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="Map data &copy; OpenStreetMap contributors"
