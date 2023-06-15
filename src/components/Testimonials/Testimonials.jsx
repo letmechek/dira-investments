@@ -22,7 +22,7 @@ export default function Testimonials() {
             Straight From the Source
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center pr-15">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-black p-4 mx-2 rounded text-white">
               <p>{testimonial.quote}</p>
