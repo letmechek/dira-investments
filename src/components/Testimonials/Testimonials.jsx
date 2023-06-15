@@ -27,7 +27,7 @@ export default function Testimonials() {
           <div className="mb-12 md:mb-0 bg-black m-2 " key={index} >
             <div className="mb-6 flex justify-center">
               <img
-                src='https://tse3.mm.bing.net/th?id=OIP.fWMgWK7C14QiOJjaY1ahBAHaHa&pid=Api&P=0&h=180'
+                src='https://tse1.mm.bing.net/th?id=OIP.JwEJgEC-hx43MR-2OJa_IQHaHw&pid=Api&P=0&h=180'
                 alt={testimonial.name[0]}
                 className="w-32 rounded-full shadow-lg dark:shadow-white/30 text-white m-2"
                 // alt={`Avatar ${index + 1}`}
