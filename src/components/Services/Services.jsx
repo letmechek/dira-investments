@@ -1,5 +1,5 @@
 import service1 from '../../Assets/images/service1.jpeg'
-import service2 from '../../Assets/images/service2.webp'
+import service2 from '../../Assets/images/service2.png'
 
 
 export default function Services() {
@@ -13,7 +13,7 @@ export default function Services() {
       </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
           <div className="relative">
-            <img src={service1} alt="Brainstorming" className="w-full h-auto rounded shadow" style={{ opacity: 0.8, height:'555px' }}/>
+            <img src={service1} alt="Brainstorming" className="w-full h-auto rounded shadow" style={{ opacity: 0.5, height:'555px' }}/>
             <div className="absolute pb-10 left-0 right-0 bottom-0 flex items-center justify-center">
               <div className="p-4 text-white  text-center">
                 <h3 className="text-xl  mb-2">Wholesale Oil Procurement</h3>
@@ -22,7 +22,7 @@ export default function Services() {
             </div>
           </div>
           <div className="relative">
-            <img src={service2} alt="Branding & Positioning Analysis" className="w-full h-auto rounded shadow" style={{ opacity: 0.8 }} />
+            <img src={service2} alt="Branding & Positioning Analysis" className="w-full h-auto rounded shadow" style={{ opacity: 0.5,  height:'555px' }} />
             <div className="absolute pb-10 left-0 right-0 bottom-0 flex items-center justify-center">
               <div className="p-4 text-white  text-center">
                 <h3 className="text-xl  mb-2">Retail Oil Distribution Solutions</h3>
